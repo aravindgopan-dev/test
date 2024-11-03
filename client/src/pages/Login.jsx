@@ -30,7 +30,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        '/api/v1/user/login',  // Your login API endpoint
+        'https://tail-gen.onrender.com/api/v1/user/login',  // Your login API endpoint
         JSON.stringify(formData),  // Sending raw JSON data (username, password)
         {
           headers: {
